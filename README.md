@@ -1,5 +1,5 @@
 # YARP: Streaming Control
-[![Build Status](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Control.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Control)
+[![Build Status](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Control.svg?branch=mobile-robots)](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Control)
 
 - [Introducción](#introducción)
 - [Enlaces de interés](#enlaces-de-interés)
