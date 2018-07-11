@@ -77,9 +77,36 @@ int main()
 	cout<<"Mirando hacia abajo"<<endl;
 	}
 	if(datos=="k"){
-	cout<<"Activando modo B"<<endl;
+	cout<<"Activando modo autónomo"<<endl;
 	}
 	if(datos=="l"){
+	cout<<"Desactivando modo autónomo"<<endl;
+	}
+	if(datos=="m"){
+	cout<<"Activando modo vigía"<<endl;
+	}
+	if(datos=="n"){
+	cout<<"Desactivando modo vigía"<<endl;
+	}
+	if(datos=="o"){
+	cout<<"Activando modo control telemático"<<endl;
+	}
+	if(datos=="p"){
+	cout<<"Desactivando modo control telemático"<<endl;
+	}
+	if(datos=="r"){
+	cout<<"Activando modo análisis"<<endl;
+	}
+	if(datos=="s"){
+	cout<<"Desactivando modo análisis"<<endl;
+	}
+	if(datos=="y"){
+	cout<<"Activando modo defensa"<<endl;
+	}
+	if(datos=="u"){
+	cout<<"Desactivando modo defensa"<<endl;
+	}
+	if(datos=="q"){
 	cout<<"Desconectando..."<<endl;
 	}
    }
