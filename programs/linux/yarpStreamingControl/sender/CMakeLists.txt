@@ -1,9 +1,8 @@
-# YARP Streaming Controller: Emisor
-
+# yarpStreamingControl: Sender
 cmake_minimum_required(VERSION 2.8)  # Versión mínima que exigimos de CMake, que va ampliando sus capacidades
-add_executable(emisor_controller main.cpp)  # Compilar main.cpp y other.cpp, enlazarlos, y llamar ejecutable al binario generado
+add_executable(yarpStreamingControlSender main.cpp)  # Compilar main.cpp y other.cpp, enlazarlos, y llamar ejecutable al binario generado
 find_package(YARP REQUIRED)  # Nombre de la librería, buscará un módulo de CMake (que define las variables utilizadas a continuación) con este nombre. REQUIRED indica que lo exigimos.
 find_package(OpenCV REQUIRED)  # Nombre de la librería, buscará un módulo de CMake (que define las variables utilizadas a continuación) con este nombre. REQUIRED indica que lo exigimos.
-target_link_libraries(emisor_controller ${OpenCV_LIBS})
-target_link_libraries(emisor_controller ${YARP_LIBRARIES})
+target_link_libraries(yarpStreamingControlSender ${OpenCV_LIBS})
+target_link_libraries(yarpStreamingControlSender ${YARP_LIBRARIES})
 

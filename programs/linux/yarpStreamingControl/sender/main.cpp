@@ -37,9 +37,9 @@ int main()
     	cout<<"Iniciando red de YARP..."<<endl;
     	Port puerto_envio;  	
     	cout<<"Iniciando cliente..."<<endl;
-    	cout<<"Abriendo puerto de envío con nombre /emisor_control"<<endl;
-    	puerto_envio.open("/emisor_control");
-    	Network::connect("/emisor_control","/receptor_control");
+    	cout<<"Abriendo puerto de envío con nombre /yarpStreamingControl/ctrl:o"<<endl;
+    	puerto_envio.open("/yarpStreamingControl/ctrl:o");
+    	Network::connect("/yarpStreamingControl/ctrl:o","/yarpStreamingControl/ctrl:i");
     	cout<<"Conectando..."<<endl;
 	Bottle dato;
 	

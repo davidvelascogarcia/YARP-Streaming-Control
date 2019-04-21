@@ -38,7 +38,7 @@ int main()
     Network yarp;
     cout<<"Iniciando red de YARP"<<endl;
     Port puerto_receptor;
-    puerto_receptor.open("/receptor_control");
+    puerto_receptor.open("/yarpStreamingControl/ctrl:i");
     cout<<"Esperando órdenes..."<<endl;	
 
     while (true) {

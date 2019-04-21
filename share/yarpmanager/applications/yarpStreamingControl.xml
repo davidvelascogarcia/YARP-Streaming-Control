@@ -4,13 +4,13 @@
 
 <!--- Nombre aplicación -->
 
-<name>YARP Streaming Controller</name>
+<name>yarpStreamingControl</name>
 
 <!--- Módulo de recepción de control vía YARP -->
 
     <module>
-        <name>receptor_controller</name>
-	<workdir>./linux/YARP_Streaming_Control_Receptor/build</workdir> 
+        <name>yarpStreamingControlReciever</name>
+	<workdir>./../programs/linux/yarpStreamingControl/reciever/build</workdir> 
         <node>localhost</node>
     </module>
 

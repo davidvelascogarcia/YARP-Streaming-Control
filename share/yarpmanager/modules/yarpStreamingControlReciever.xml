@@ -1,0 +1,8 @@
+
+<!--- Módulo de recepción de control vía YARP -->
+
+    <module>
+        <name>yarpStreamingControlReciever</name>
+	<workdir>./../programs/linux/yarpStreamingControl/reciever/build</workdir> 
+        <node>localhost</node>
+    </module>
